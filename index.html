@@ -4,12 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Recipes App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>hello poppers</h1>
+
+<div class="mobile-container">
+    <header>
+        <input type="text" id="search-term"/>
+        <button id="search"><i class="fa fa-search"></i>
+        </button>
+    </header>
+
+    <div class="fav-container">
+        <h3>내가 좋아하는 음식</h3>
+
+        
+        <ul class="fav-meals">
+            <li><img src="https://lh3.googleusercontent.com/proxy/7e9Zmgjvhsj_JqQnB-94nflQ4HB3DYSeq_wZylFRZivJ7cEZwLTXn6EswRobbWxKUvuVaSmUp63dV7WlXfS7JME6xNveRGLAu_msQMvRW2Yi3We04-wROgmlctzQDwqQy-4aphbaDgcDESOKQCNqhPHwKy3DcnhkWbgvWwyxjcSrO4IqaosgofIGaoKs2Ho8-epeJfapgRVaktL7x-qEn8Fyjgjq7dvWkqLVPE0knZCYtvkDvoZKc64" alt=""><span>칼국수</span></li>
+            <li><img src="https://recipe1.ezmember.co.kr/cache/recipe/2016/01/31/5240d19f3477433a28138af269ed26d71.jpg" alt=""><span>갈비찜</span></li>
+            <li><img src="https://lh3.googleusercontent.com/proxy/zt_jGxdjKplSqGHo8TKrESRO8SKUfbpdTpOC-c7fQ13inslCGNDaqt4lvX31S35YMj7D9JRQ42EDMAsdyX_4ly0-NJxqAOyVEACEpTFe517aTBQVKT3xrNWgF5UxG7wM5w" alt=""><span>고구마그라탕</span></li>
+            <li> <img src="https://cdn.crowdpic.net/list-thumb/thumb_l_0E388F8BD30A281244E8CF9B9AD7AD0D.jpg" alt=""><span>제육볶음</span></li>
+
+        </ul>
+    </div>
+    <div class="meals" id="meals">
+        <div class="meal">
+
+            <div class="meal-header">
+                <span class="random">
+                    Random Recipe
+                </span>
+                <img src="https://cdn.crowdpic.net/list-thumb/thumb_l_0E388F8BD30A281244E8CF9B9AD7AD0D.jpg" alt="">
+
+            </div>
+            <div class="meal-body">
+
+                <h4>Veggie Veggies</h4>
+                <button class="fav-btn">
+                    <i class="fa fa-heart"></i>
+                </button>
+            </div>
+            
+        </div>
+    </div>
     
+</div>
 </body>
 </html>
